@@ -46,3 +46,154 @@ Python is a high-level programming language that emphasizes readability and simp
 - **Git (optional)**: For version control if uploading to GitHub
 
 
+
+# Minimal Working Example
+
+
+## Python Beginner Toolkit
+# Description
+This is a simple Python calculator that allows the user to input two numbers and choose an operation (+, -, *, /). The program then performs the calculation and displays the result.
+This project is a beginner-friendly Python toolkit that demonstrates basic programming concepts such as variables, input/output, and conditional logic using a simple calculator.
+
+## How to Run
+
+1. Install Python
+2. Run:
+   python calculator.py
+
+## Code
+
+
+# Screenshot
+![alt text](image.png)
+
+# output
+
+![alt text](image-1.png)
+
+```python
+# Simple calculator in Python
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+operation = input("Enter operation (+, -, *, /): ")
+
+if operation == "+":
+    result = num1 + num2
+elif operation == "-":
+    result = num1 - num2
+elif operation == "*":
+    result = num1 * num2
+elif operation == "/":
+    if num2 != 0:
+        result = num1 / num2
+    else:
+        result = "Error! Division by zero."
+else:
+    result = "Invalid operation."
+
+print("Result:", result)
+
+Admin@DESKTOP-MSJPL5R MINGW64 ~/Desktop/PythonProjects
+ C:/Python313/python.exe c:/Users/Administrator/Desktop/PythonProjects/calculator.py
+Enter first number: 1
+Enter second number: 2
+Enter operation (+, -, *, /): /
+Enter operation (+, -, *, /): /
+Result: 0.5
+
+
+# AI Prompt Journal
+
+## Prompt 1
+
+**Prompt Used:**  
+Explain Python variables in a simple way for beginners
+
+**Link to Curriculum:**  
+https://ai.moringaschool.com/
+
+**Relevant AI Response:**  
+"Variables are containers used to store data such as numbers or text. For example, name = 'Afline' stores the value 'Afline' in a variable."
+
+**Evaluation:**  
+This response was very helpful because it simplified the concept of variables and made it easy to understand and apply in my code.
+
+---
+
+## Prompt 2
+
+**Prompt Used:**  
+How do I take user input in Python?
+
+**Link to Curriculum:**  
+https://ai.moringaschool.com/
+
+**Relevant AI Response:**  
+"The input() function is used to collect data from the user. For example, name = input('Enter your name: ') allows the user to type a value."
+
+**Evaluation:**  
+This helped me understand how to interact with users in my program and was easy to test immediately in VS Code.
+
+---
+
+## Prompt 3
+
+**Prompt Used:**  
+Create a simple Python calculator program using beginner concepts
+
+**Link to Curriculum:**  
+https://ai.moringaschool.com/
+
+**Relevant AI Response:**  
+"The program uses input(), variables, and conditional statements (if/elif/else) to perform arithmetic operations like addition and division."
+
+**Evaluation:**  
+This was very useful because it helped me combine multiple concepts into one working project, which became my minimal working example.
+
+---
+
+## Prompt 4
+
+**Prompt Used:**  
+How do I fix division by zero error in Python?
+
+**Link to Curriculum:**  
+https://ai.moringaschool.com/
+
+**Relevant AI Response:**  
+"You can prevent this error by checking if the denominator is zero before performing division using an if statement."
+
+**Evaluation:**  
+This improved my program by making it more reliable and helped me understand basic error handling.
+
+---
+
+## Reflection
+
+Using AI tools helped me learn Python faster by providing instant explanations and examples. It improved my understanding of concepts and helped me debug errors efficiently. AI acted as a learning assistant throughout the project.
+
+# Error
+
+## Screenshot
+![alt text](image-2.png)
+
+**What happened:**  
+The program skipped directly to:
+"Enter operation..." without asking for numbers.
+
+**Cause:**  
+This was caused by incorrect execution flow or accidental input errors.
+
+**Solution:**  
+I reran the program and entered inputs in the correct order:
+1. First number  
+2. Second number  
+3. Operation  
+
+---
+
+## References for Fixes
+
+https://stackoverflow.com/questions/18938891/simple-calculator-in-c-flow-of-input-skipping-over-scanf
