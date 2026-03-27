@@ -197,3 +197,12 @@ I reran the program and entered inputs in the correct order:
 ## References for Fixes
 
 https://stackoverflow.com/questions/18938891/simple-calculator-in-c-flow-of-input-skipping-over-scanf
+
+# References
+
+- W3Schools Python Tutorial: https://www.w3schools.com/python/
+- Python Official Documentation: https://docs.python.org/3/
+- VS Code Official Website: https://code.visualstudio.com/
+- Moringa AI Platform: https://ai.moringaschool.com/
+- Stack Overflow: https://stackoverflow.com/
+https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics?ex=1&skip_variants_modal=true
